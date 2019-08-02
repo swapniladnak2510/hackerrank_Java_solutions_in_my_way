@@ -1,0 +1,14 @@
+
+
+class  Arithmetic  {
+    int a,b;
+    int add(int a,int b){
+        this.a=a;
+        this.b=b;
+        return a+b;
+    }
+}
+class Adder extends Arithmetic {
+    int x=10;
+}
+
